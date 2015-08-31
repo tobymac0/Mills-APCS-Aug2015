@@ -1,4 +1,4 @@
-the arrow below the output line that indicates where output will be sent
+
 /**
  * Write a description of class Hello_world here.
  * 
