@@ -16,5 +16,15 @@ public class Face
     System.out.println(" \\    \\--------/   /");
     System.out.println("  \\    \\------/   /");
     System.out.println("   ------------------");
+    System.out.println("           |||       ");
+    System.out.println("           |||       ");
+    System.out.println(" ------------------- ");
+    System.out.println("           |||       ");
+    System.out.println("           |||       ");
+    System.out.println("           |||       ");
+    System.out.println("           / \\      ");
+    System.out.println("          /   \\     ");
+    System.out.println("         /     \\    ");
+    System.out.println("        /       \\   ");
     }
 }
