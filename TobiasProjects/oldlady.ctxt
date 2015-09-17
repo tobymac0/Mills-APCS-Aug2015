@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ methodfly()
+comment1.params=
+comment1.target=void\ methodflylady()
+comment10.params=args
+comment10.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ methodspider()
+comment3.params=
+comment3.target=void\ methodspiderlady()
+comment4.params=
+comment4.target=void\ methodbird()
+comment5.params=
+comment5.target=void\ methodbirdlady()
+comment6.params=
+comment6.target=void\ methodcat()
+comment7.params=
+comment7.target=void\ methodcatlady()
+comment8.params=
+comment8.target=void\ methoddog()
+comment9.params=
+comment9.target=void\ methoddoglady()
+numComments=11
