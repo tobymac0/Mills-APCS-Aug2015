@@ -8,12 +8,16 @@
 public class hourglass
 {
     public static void main(String[] args)  {
-        quotes();
-        body();
-        lines();
+        quotelines();
+        downcone();
+        middleline();
+        upcone();Sy
+        quotelines();
     }
-    for (int i=1; int i<=5; i++)  {
-        
+    public static void quotelines()  {
+        System.out.print("|");
+        (for int i=; int i<=10; i++)  {
+            System.out.print
     
     }
 }
