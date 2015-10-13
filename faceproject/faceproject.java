@@ -35,6 +35,18 @@ public class faceproject
         System.out.print("/-\\");
         System.out.println(" ");
     }
+    public static void eyesbottom()  {
+        for(int i=1; i<=6; i++)  {
+            System.out.print(" ");
+        }
+        System.out.print("\\-/");
+        for(int j=1; j<=16; j++)  {
+            System.out.print(" ");
+        }
+        System.out.print("\\-/");
+        System.out.println();
+    }
+    
     public static void nose()  {
         {
         for(int i=1; i<=16; i++)  {
@@ -52,17 +64,19 @@ public static void writeChars(char ch, int number)  {
         System.out.print(ch);
     }
 }
+
 public static void mouth()  {
-    for(int i=1; i<=5; i++)  {
+    for(int i=1; i<=21; i++)  {
         writeChars('<', i);
-        writeChars(' ', 10-2*i);
+        writeChars(' ', 42-2*i);
         writeChars('>', i);
         System.out.println();
     }
 }
+
 //maketeeth
 public static void teeth()  {
-    for(int i=1; i<=8; i++)  {
+    for(int i=1; i<=17; i++)  {
         System.out.print(" ");
     }
     System.out.print("|_|_|");
@@ -70,7 +84,7 @@ public static void teeth()  {
 }
 //makelegs
 public static void legs()  {
-    for(int i=1; i<=8; i++) {
+    for(int i=1; i<=10; i++) {
         System.out.print(" ");
     }
     System.out.print("|    |");
@@ -84,7 +98,7 @@ public static void legs()  {
 //feet
 public static void feet()  {
     {
-    for(int i=1; i<=8; i++)  {
+    for( int i=1; i<=10; i++)  {
         System.out.print(" ");
     }
     System.out.print("|===|");
@@ -96,6 +110,19 @@ System.out.print("|===|");
 System.out.println();
 }
 
+public static void holes()  {
+    {
+    for( int i=1; i<=3; i++)  {
+        System.out.print(" ");
+    }
+    System.out.print("o");
+    System.out.print("         o         o          o");
+}
+System.out.println();
+}
+
+
+  
 
   
     
@@ -103,18 +130,23 @@ System.out.println();
         topofhead();
         doublesideface();
         doublesideface();
+        holes();
         eyes();
+        eyesbottom();
+        holes();
         nose();
         doublesideface();
         doublesideface();
-        doublesideface();
-        doublesideface();
+        holes();
+        holes();
+        holes();
         doublesideface();
         mouth();
         teeth();
         doublesideface();
         topofhead();
         doublesideface();
+        holes();
         doublesideface();
         topofhead();
         legs();
