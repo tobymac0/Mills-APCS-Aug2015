@@ -18,7 +18,7 @@ public class Homecoming2k15
         
         
     }
-    public static void damage()  {
+    public static void damage(console)  {
         System.out.println("Let's  figure out the damage for the evening");
         System.out.println();
         System.out.println("What are your estimated costs?");
